@@ -10,10 +10,12 @@ package com.example.firsttask
  * consts can never be assigned to a function or any class constructor
  * but only to a String or primitive not object data type
  */
+/*
 const val sumWithConst = sum(1, 2) //this not ok because we can't assign function to const
 data class ClassWithConst(const val constant:Int)  //this not ok because we can't assign const as class constructor
 
 const val objectDataTypeWithConst=ObjectDataType("AppsSqure") // this not ok because const can`t assigned to object data type
+*/
 
 /**
  *unlike const  val can be done at runtime.
